@@ -1,0 +1,15 @@
+{
+  "name": "monkebot",
+  "version": "1.0.0",
+  "description": "A bot made specifically for my streaming server, RoastMunkhee's Troop!",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Rees",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "node-json-db": "^0.9.0"
+  }
+}
