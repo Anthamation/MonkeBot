@@ -411,7 +411,7 @@ client.on('message', msg => {
         )
     }
     //gatekeeper - Rules Channel
-    if (msg.content.toLowerCase() == 'agree' && msg.channel.id === '1061669358742556712') {
+    if (msg.content.toLowerCase() == 'agree' && msg.channel.id === 'Rules Channel ID') {
         if (msg.member.roles.has(MemberRole.id)) return
         if (!msg.member.roles.has(MemberRole.id)) {
             if (!msg.content.includes() == 'agree') {
